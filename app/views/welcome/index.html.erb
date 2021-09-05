@@ -1,0 +1,12 @@
+<div>
+<ul>
+  <% @client_ips.each do |ip| %>
+  <li class="list-group-item">
+    <%= ip.name %>
+  </li>
+  <% end %>
+</ul>
+</div>
+<div align="center">
+ <%= will_paginate @client_ips %>
+</div>

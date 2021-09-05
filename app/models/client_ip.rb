@@ -1,0 +1,2 @@
+class ClientIp < ApplicationRecord
+end
